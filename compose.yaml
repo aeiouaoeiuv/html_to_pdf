@@ -1,0 +1,9 @@
+services:
+  ubuntu:
+    tty: true
+    image: aeiouaoeiuv/ubuntu:html_to_pdf
+    container_name: html_to_pdf
+    working_dir: /workspace
+    volumes:
+      - $PWD:/workspace
+
