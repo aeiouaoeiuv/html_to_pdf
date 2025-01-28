@@ -1,5 +1,5 @@
 services:
-  ubuntu:
+  html_to_pdf:
     tty: true
     image: aeiouaoeiuv/ubuntu:html_to_pdf
     container_name: html_to_pdf
